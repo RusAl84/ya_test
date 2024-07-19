@@ -1,5 +1,6 @@
-def print_my_info(name: str, patronymic: str) -> None:
-    print(f'Меня зовут {name} {patronymic}')
+def print_my_info(name: str, surname: str, patronymic: str) -> None:
+    # создаю ужасный конфликт слияния :^(
+    print(f'Меня зовут {name} {surname} {patronymic}')
 
 
-print_my_info('Alexander', 'Aleksandrovich')
+print_my_info('Alexander', 'Aleksandrovich', 'Kolesov')
